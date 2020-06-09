@@ -490,7 +490,7 @@ COMPETENCES / A PROPOS
 	padding: 15px;
 	background: #ffffff;
     margin-bottom: 30px;
-    height: 392px;
+    min-height: 392px;
 }
 .ser-icon{
 	width: 90px;
