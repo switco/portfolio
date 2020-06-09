@@ -1,21 +1,4 @@
 /*------------------------------------------------------------------
-    IMPORT FONTS
--------------------------------------------------------------------*/
-
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700');
-
-/*------------------------------------------------------------------
-    IMPORT FILES
--------------------------------------------------------------------*/
-
-@import url(css/animate.css);
-@import url(css/camera.css);
-@import url(css/flaticon.css);
-@import url(css/prettyPhoto.css);
-@import url(css/owl.carousel.css);
-@import url(css/font-awesome.min.css);
-
-/*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
 
@@ -1158,40 +1141,4 @@ hr.invis1 {
 .btn-light:focus {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
-}
-
-/*------------------------------------------------------------------
-    ADDED BY ME
--------------------------------------------------------------------*/
-
-.tech-logo {
-    font-size: 1.8rem;
-    color: #689D71;
-  }
-
-.green-color {
-    color: #689D71;
-}
-
-::selection {
-      background-color: #f0f2ef;
-  }
-
-.cd-headline {
-    font-size: 30px;
-}
-
-.code-icon {
-    font-size: 4rem;
-}
-
-h3:after {
-    content: '';
-    display: block;
-    height: 3px;
-    background: #689D71;
-    width: 8%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
 }
