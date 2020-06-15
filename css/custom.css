@@ -1,27 +1,6 @@
 /** ADD YOUR AWESOME CODES HERE **/
 
-.tech-logo {
-    font-size: 1.8rem;
-    color: #689D71;
-    width: 28.8px;
-  }
-
-.green-color {
-    color: #689D71;
-}
-
-::selection {
-      background-color: #B1C1A2;
-  }
-
-.cd-headline {
-    font-size: 30px;
-}
-
-.code-icon {
-    font-size: 4rem;
-}
-
+/* GENERAL */
 h3:after {
     content: '';
     display: block;
@@ -40,3 +19,88 @@ a {
 a:hover {
     color: #689D71;
 }
+
+/* COLOR */
+.tech-logo {
+    font-size: 1.8rem;
+    color: #689D71;
+    width: 28.8px;
+}
+
+.footer-logo {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.green-color, .footer-logo:hover {
+    color: #689D71;
+}
+
+.main-color {
+    color: #B1C1A2;
+}
+
+::selection, .green-bg {
+    background-color: #B1C1A2;
+}
+
+/* FONT-SIZE*/
+.cd-headline {
+    font-size: 30px;
+    font-family: 'Roboto Mono';
+}
+
+.code-icon {
+    font-size: 3rem;
+}
+
+.ml3 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+
+/* PADDING-MARGIN */
+.top-padding {
+    padding-top: 62px;
+}
+
+/* IMAGES */
+.img-overlay img {
+    filter: grayscale(4);
+    -webkit-filter: grayscale(14);
+    }
+    .photo-gris img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    }
+
+/* TECH BADGES */
+.html-pill {
+    color: #ffffff;
+    background-color: #b1c1a2;
+}
+
+.css-pill {
+    color: #ffffff;
+    background-color: #b6a6ca;
+}
+
+.php-pill {
+    color: #ffffff;
+    background-color: #284b63;
+}
+
+.wp-pill {
+    color: #ffffff;
+    background-color: #3c6e71;
+}
+
+.figma-pill {
+    color: #ffffff;
+    background-color: #444444;
+}
+
+/* RESPONSIVE */
+  @media (max-width: 544px) {
+      
+  }

@@ -42,9 +42,12 @@
 <script src="js/modernizr.js"></script> <!-- Modernizr -->
 <!-- Fontawesome -->
 <script src="https://kit.fontawesome.com/5bb1d77498.js" crossorigin="anonymous"></script>
+<!-- Animejs -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <!-- Devicon -->
 <link rel="stylesheet"
     href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
 
 <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -102,9 +105,9 @@
 
     <section id="home" class="main-banner parallaxie">
         <div class="heading">
-            <h1>Jessica Manent</h1>
-            <h2 class="cd-headline clip is-full-width text-white">
-                Développeuse Web full-stack
+            <h1 class="">Jessica Manent</h1>
+            <h2 class="cd-headline clip is-full-width text-white ml3">
+                Développeuse web full-stack
             </h2>
             <p class="">
                 <i class="code-icon fas fa-code"></i>
@@ -118,15 +121,13 @@
                 <div class="col-md-6">
                     <div class="message-box">
                         <h2>A propos</h2>
-                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus
-                            bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis
-                            dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum neque. Ut id erat sit amet
-                            libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue
-                            justo. </p>
-                        <p>Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero,
-                            eu bibendum risus. Phasellus et congue justo.</p>
+                        <p>Après une carrière de styliste/modéliste qui a duré 10 ans, j'ai décidé de me reconvertir
+                            dans le numérique ! Ayant mis un pied dans le web grâce à la gestion de mon site Prestashop,
+                            puis WordPress, </p>
+                        <p>zzzzzzzzzzzzz</p>
 
-                        <a href="#" class="sim-btn btn-hover-new" data-text="Download CV"><span>Download CV</span></a>
+                        <a href="#" class="sim-btn btn-hover-new">Télécharger mon
+                            CV</a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 
@@ -134,7 +135,7 @@
                     <!-- <div class="right-box-pro wow fadeIn">
                         <img src="uploads/about_04.jpg" alt="" class="img-fluid img-rounded">
                     </div>end media -->
-                    <div class="d-flex justify-content-end">
+                    <div class="img-fluid">
                         <img class="pt-3" src="./images/header-illustration.png" alt="">
                     </div>
                 </div><!-- end col -->
@@ -180,6 +181,8 @@
                             <li><i class="devicon-nodejs-plain tech-logo"></i> Node.js</li>
                             <li><i class="devicon-mysql-plain tech-logo"></i> MySQL
                             <li>
+                            <li><i class="devicon-mongodb-plain tech-logo"></i> MongoDB</li>
+
                         </ul>
                         </p>
                     </div>
@@ -192,7 +195,7 @@
                         <h2>Gestion de projet</h2>
                         <p>
                         <ul class="list-unstyled">
-                            <li><i class="fas fa-tasks tech-logo"></i></i> Méthodes agiles
+                            <li><i class="fas fa-tasks tech-logo"></i></i> Méthodes agiles (scrum)
                             </li>
                             <li><i class="devicon-github-plain tech-logo"></i> Github</li>
                             <li><i class="devicon-trello-plain tech-logo"></i> Trello</li>
@@ -211,7 +214,7 @@
                         <ul class="list-unstyled">
                             <li><i class="fab fa-figma tech-logo"></i> Figma</li>
                             <li><i class="devicon-photoshop-plain tech-logo"></i> Photoshop</li>
-                            <li><i class="fab fa-adobe tech-logo"></i> Indesign</li>
+                            <li><i class="fab fa-adobe tech-logo"></i> InDesign</li>
                         </ul>
                         </p>
                     </div>
@@ -238,12 +241,13 @@
                         <div class="post-info">
                             <h4>Réseau social "Creepy Cute"</h4>
                             <ul>
-                                <li><span class="badge badge-pill badge-secondary">PHP</span></li>
-                                <li><span class="badge badge-pill badge-secondary">HTML</span></li>
-                                <li><span class="badge badge-pill badge-secondary">CSS</span></li>
+                                <li><span class="badge badge-pill php-pill">PHP</span></li>
+                                <li><span class="badge badge-pill html-pill">HTML</span></li>
+                                <li><span class="badge badge-pill css-pill">CSS</span></li>
                             </ul>
                             <p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam
                                 at eget quam. Integer ultricies et magna quis.</p>
+                            <a href="#" class="sim-btn btn-hover-new mt-4">Voir plus</a>
                         </div>
                     </div>
                 </div>
@@ -258,13 +262,11 @@
                         <div class="post-info">
                             <h4>Landing page "Rent My Park"</h4>
                             <ul>
-                                <li><span class="badge badge-pill badge-secondary">WordPress</span></li>
-                                <li><span class="badge badge-pill badge-secondary">PHP</span></li>
-                                <li><span class="badge badge-pill badge-secondary">HTML</span></li>
-                                <li><span class="badge badge-pill badge-secondary">CSS</span></li>
+                                <li><span class="badge badge-pill wp-pill">WordPress</span></li>
                             </ul>
                             <p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam
                                 at eget quam. Integer ultricies et magna quis.</p>
+                            <a href="#" class="sim-btn btn-hover-new mt-4">Voir plus</a>
                         </div>
                     </div>
                 </div>
@@ -279,13 +281,13 @@
                         <div class="post-info">
                             <h4>Page d'accueil site e-commerce</h4>
                             <ul>
-                                <li><span class="badge badge-pill badge-secondary">HTML</span></li>
-                                <li><span class="badge badge-pill badge-secondary">CSS</span></li>
-                                <li><span class="badge badge-pill badge-secondary">Figma</span></li>
+                                <li><span class="badge badge-pill html-pill">HTML</span></li>
+                                <li><span class="badge badge-pill css-pill">CSS</span></li>
+                                <li><span class="badge badge-pill figma-pill">Figma</span></li>
                             </ul>
                             <p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam
                                 at eget quam. Integer ultricies et magna quis.</p>
-                            <a href="#" class="">Voir plus</a>
+                            <a href="#" class="sim-btn btn-hover-new mt-4">Voir plus</a>
                         </div>
                     </div>
                 </div>
@@ -302,7 +304,7 @@
             </div>
 
             <div class="row">
-                <div class="col-md-6 text-right pr-0">
+                <div class="col-md-6 text-right pr-md-0 mb-3 mb-md-0">
                     <div class="card border-0 shadow-sm">
                         <div class="card-body">
                             <h4 class="h5 green-color">Formation en développement web full-stack</h4>
@@ -315,7 +317,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 offset-md-6 pl-0">
+                <div class="col-md-6 offset-md-6 pl-md-0 mb-3 mb-md-0">
                     <div class="card border-0 shadow-sm">
                         <div class="card-body">
                             <h4 class="h5 green-color">Bac +2 en Droit</h4>
@@ -327,7 +329,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 text-right pr-0">
+                <div class="col-md-6 text-right pr-md-0 mb-3">
                     <div class="card border-0 shadow-sm">
                         <div class="card-body">
                             <h4 class="h5 green-color">Baccalauréat ES</h4>
@@ -341,16 +343,22 @@
         </div><!-- end container -->
     </div><!-- end section -->
 
-    <!-- CONTACT SECTION -->
-    <div id="contact" class="section db">
+    <!-- FOOTER -->
+    <footer id="contact" class="section db">
         <div class="container">
             <div class="section-title text-center">
-                <h3>Contactez moi !</h3>
-                <p><i class="far fa-envelope"></i> jessica.manent@gmail.com</p>
+                <h3>Restons en contact !</h3>
+                <ul class="list-inline mt-5">
+                    <li class="list-inline-item"><a href="mailto:jessica.manent@gmail.com"><i
+                                class="fas fa-envelope-square footer-logo"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/switco" target="_blank"><i
+                                class="fab fa-github-square footer-logo"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/jessica-manent/"
+                            target="_blank"><i class="fab fa-linkedin footer-logo"></i></a></li>
+                </ul>
             </div>
         </div>
-    </div>
-    <!-- END CONTACT -->
+    </footer>
 
     <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
