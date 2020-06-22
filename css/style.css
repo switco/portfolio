@@ -169,6 +169,7 @@ ul, li, ol{
 .navbar-dark .navbar-nav .nav-link:hover{
 	color: #ffffff;
 }
+
 .navbar-dark .navbar-nav .nav-link.active{
 	font-weight: 600;
 }

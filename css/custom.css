@@ -1,7 +1,16 @@
 /** ADD YOUR AWESOME CODES HERE **/
 
 /* GENERAL */
-h3:after {
+#rmp h1, #rmp-landing h1 {
+    font-family: 'Roboto Slab';
+}
+
+#rmp h2 {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+h3:after, #rmp h2:after {
     content: '';
     display: block;
     height: 3px;
@@ -18,6 +27,14 @@ a {
 
 a:hover {
     color: #689D71;
+}
+
+.services-inner-box{
+    min-height: 400px;
+}
+
+#rmp .navbar-dark .navbar-nav .nav-link:hover{
+	font-weight: 500;
 }
 
 /* COLOR */
@@ -69,12 +86,17 @@ a:hover {
     filter: grayscale(4);
     -webkit-filter: grayscale(14);
     }
-    .photo-gris img:hover {
+
+.photo-gris img:hover {
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
-    }
+}
 
 /* TECH BADGES */
+.badge-pill {
+    font-weight: 400;
+}
+
 .html-pill {
     color: #ffffff;
     background-color: #b1c1a2;
@@ -117,5 +139,30 @@ a:hover {
 
 /* RESPONSIVE */
   @media (max-width: 544px) {
-      
+
+    #rmp h1, #rmp-landing h1 {
+        font-size: 2rem;
+    }
+
+    #rmp p, #rmp a {
+        text-align: left;
+    }
+
+    h3:after, #rmp h2:after {
+        width: 15%;
+        margin-top: 5%;
+    }
+
+    .services-inner-box{
+        min-height: 0;
+    }
+    
+    .img-size {
+        width: 330px;
+    }
+
+    .ml3 {
+        font-weight: 500;  
+        font-size: 1.5rem;
+    }
   }
