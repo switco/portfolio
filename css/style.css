@@ -931,13 +931,13 @@ hr.invis1 {
 	background: #ffffff;
 }
 
-.post-box:hover .post-thumb::before{
+/*.post-box:hover {
 	opacity: .6;
 	-webkit-transform: translateY(0);
 	transform: translateY(0);
 }
 
-.post-box .post-thumb::before{
+.post-box::before{
 	content: "";
 	position: absolute;
 	top: 0;
@@ -950,7 +950,7 @@ hr.invis1 {
 	transition: all .5s;
 	-webkit-transform: translateY(10px);
 	transform: translateY(10px);
-}
+}*/
 
 .post-info{
 	padding: 0px 15px 40px 15px;
