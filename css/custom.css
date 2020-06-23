@@ -5,12 +5,12 @@
     font-family: 'Roboto Slab';
 }
 
-#rmp h2 {
+#rmp h2, #rmp-landing h2 {
     font-size: 1.7rem;
     font-weight: 500;
 }
 
-h3:after, #rmp h2:after {
+h3:after, #rmp h2:after, #rmp-landing h2:after {
     content: '';
     display: block;
     height: 3px;
