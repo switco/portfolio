@@ -1,16 +1,16 @@
 /** ADD YOUR AWESOME CODES HERE **/
 
 /* GENERAL */
-#rmp h1, #rmp-landing h1, #creepy-cute h1 {
+#rmp h1, #rmp-landing h1, #creepy-cute h1, #gpi h1, #lpfs h1 {
     font-family: 'Roboto Slab';
 }
 
-#rmp h2, #rmp-landing h2, #creepy-cute h2 {
+#rmp h2, #rmp-landing h2, #creepy-cute h2, #lpfs h2{
     font-size: 1.7rem;
     font-weight: 500;
 }
 
-h3:after, #rmp h2:after, #rmp-landing h2:after, #creepy-cute h2:after {
+h3:after, #rmp h2:after, #rmp-landing h2:after, #creepy-cute h2:after, #lpfs h2:after {
     content: '';
     display: block;
     height: 3px;
@@ -29,7 +29,7 @@ a:hover {
     color: #689D71;
 }
 
-.post-box a:hover {
+.post-box p:hover {
     color: #6c757d;
 }
 
@@ -37,7 +37,7 @@ a:hover {
     min-height: 400px;
 }
 
-#rmp .navbar-dark .navbar-nav .nav-link:hover, #rmp-landing .navbar-dark .navbar-nav .nav-link:hover{
+#rmp .navbar-dark .navbar-nav .nav-link:hover, #rmp-landing .navbar-dark .navbar-nav .nav-link:hover, #gpi .navbar-dark .navbar-nav .nav-link:hover, #creepy-cute .navbar-dark .navbar-nav .nav-link:hover, #lpfs .navbar-dark .navbar-nav .nav-link:hover  {
     font-weight: 500;
 }
 
