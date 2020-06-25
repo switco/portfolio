@@ -93,6 +93,15 @@ a:hover {
     padding: 0;
 }
 
+/* HOVER */
+.post-box {
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  
+  .post-box:hover {
+    box-shadow: 0 14px 28px rgba(177, 193, 162, 0.25), 0 10px 10px rgba(177, 193, 162, 0.22);
+  }
+
 /* IMAGES */
 .img-overlay img {
     filter: grayscale(4);
