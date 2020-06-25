@@ -129,75 +129,36 @@
                 <div class="card border-0">
                     <div class="card-body p-0">
                        
-                        <p>Développement d'un mini réseau social en <span class="font-weight-bold">PHP</span>, entièrement en <span class="font-weight-bold">Programmation Orientée Objet</span> (POO).</p>
-                        <p>Le projet est implémenté avec le design pattern <span class="font-weight-bold">Modèle-vue-contrôleur</span> (MVC) :</p>
+                        <p>Le projet Open Museum est une application web permettant de répertorier les musées de la région sud. Il a été codé avec la stack <span class="font-weight-bold">MEAN</span> qui comprend :</p>
                         <p>
                             <ul>
-                                <li>Pour la persistance des données, j'ai utilisé un <span class="font-weight-bold">ORM</span> s'appuyant sur des fichiers JSON.</li>
-                                <li>Les vues ont été codées en PHP natif et Bootstrap.</li>
-                                
+                                <li>MongoDB</li>
+                                <li>Express.js</li>
+                                <li>Angular</li>
+                                <li>Node.js</li>
                             </ul>
                         </p>
-                        <a href="https://calm-ridge-43517.herokuapp.com/" class="sim-btn btn-hover-new"
-                            target="_blank">Voir le
-                            site</a>
+                        <p>Vous pouvez retrouver le jeu de données utilisé sur le site <a href="https://trouver.datasud.fr/dataset/musees-labellises-musee-de-france-en-region-provence-alpes-cote-dazur/resource/524030ad-32ce-4780-b662-54e9fe3af839" target="_blank">Datasud</a>, disponible en open data.</p>
+                        <a href="#" class="sim-btn btn-hover-new"
+                            target="_blank">Sources Github</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 mt-5">
-                <img src="../uploads/cc/home-cc.jpg" alt="Page d'accueil du réseau social Creepy Cute" class="img-fluid border">
+                <img src="../uploads/open-museum/home-om.jpg" alt="Page d'accueil du réseau social Creepy Cute" class="img-fluid border">
             </div>
         </div> <!-- END ROW -->
 
         <div class="row">
-            <div class="col-12 mt-5 text-center order-1"><h2>Fonctionnalités</h2></div>
-            <div class="col-md-6 mt-5 order-3 order-md-2">
-                <div id="carouselCC" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active border">
-                            <img src="../uploads/cc/login-creepy.jpg" class="d-block w-100" alt="Page de login Creepy Cute">
-                        </div>
-                        <div class="carousel-item border">
-                            <img src="../uploads/cc/is-logged-creepy.jpg" class="d-block w-100"
-                                alt="Page d'accueil une fois connecté">
-                        </div>
-                        <div class="carousel-item border">
-                            <img src="../uploads/cc/registration-creepy.jpg" class="d-block w-100"
-                                alt="Page d'enregistrement">
-                        </div>
-                        <div class="carousel-item border">
-                            <img src="../uploads/cc/search-creepy.jpg" class="d-block w-100"
-                                alt="Page de résultat d'une recherche de pseudo">
-                        </div>
-                        <div class="carousel-item border">
-                            <img src="../uploads/cc/searchCat.jpg" class="d-block w-100"
-                                alt="Page de résultat d'une recherche de catégorie">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselCC" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselCC" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
+            <div class="col-12 mt-5 text-center"><h2>Détail d'un musée</h2></div>
+            <div class="col-md-6 mt-5 order-2 order-md-1">
+                <img src="../uploads/open-museum/single-om.jpg" alt="Page d'accueil du réseau social Creepy Cute" class="img-fluid border">
             </div>
-            <div class="col-md-6 mt-5 order-2 order-md-3">
+            <div class="col-md-6 mt-5 order-1 order-md-2">
                 <div class="card border-0">
                     <div class="card-body p-0">
-                        <p>Les <span class="font-weight-bold">fonctionnalités</span> suivantes ont été intégrées dans le projet :</p>
-                        <p>
-                            <ul>
-                                <li><span class="font-weight-bold">Consultation</span> des posts d'autres utilisateurs</li>
-                                <li><span class="font-weight-bold">Inscription et/ou connexion</span></li>
-                                <li><span class="font-weight-bold">Création</span> de nouveaux posts, seulement pour les membres connectés</li>
-                                <li><span class="font-weight-bold">Recherche</span> par @pseudo ou catégorie</li>
-                            </ul>
-                        </p>
-                        <p><span class="font-weight-bold"></span></p>
-                        <p></p>
+                        <p>Chaque musée possède sa propre page avec toutes les informations pratiques, accessible depuis le lien "Voir plus" de la page d'accueil.</p>
+                        <p>Une carte a également été implémentée avec la librairie <span class="font-weight-bold">Leaflet</span>, afin de visualiser précisémment la position de chaque musée.</p>
                     </div>
                 </div>
             </div>
