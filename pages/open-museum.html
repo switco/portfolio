@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 <!-- Site Metas -->
-<title>GPI | Stage en développement web à l'agence Mindoza</title>
+<title>Open Museum | Application web de recherche de musées</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta name="author" content="">
@@ -62,7 +62,7 @@
 
 </head>
 
-<body id="gpi">
+<body id="open-museum">
 
     <!-- NAVIGATION -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top green-bg" id="mainNav">
@@ -105,14 +105,14 @@
      <header class="container top-padding">
         <div class="row mt-5">
             <div class="col-12 text-center">
-                <h1 class="h1 text-center">Projet de stage @Mindoza</h1>
+                <h1 class="h1 text-center">Réseau social Creepy Cute</h1>
                 <p>
                     <ul class="list-inline">
-                        <li class="list-inline-item"><span class="badge badge-pill wp-pill">WordPress</span>
+                        <li class="list-inline-item"><span class="badge badge-pill php-pill">PHP</span>
                         </li>
                         <li class="list-inline-item"><span class="badge badge-pill html-pill">HTML</span>
                         </li>
-                        <li class="list-inline-item"><span class="badge badge-pill css-pill">CSS</span>
+                        <li class="list-inline-item"><span class="badge badge-pill css-pill">Bootstrap</span>
                         </li>
                     </ul>
                 </p>
@@ -126,43 +126,79 @@
             <div class="col-md-6 mt-5">
                 <div class="card border-0">
                     <div class="card-body p-0">
-                        <p>Durant ce stage, j'ai effectué diverses missions d'<span class="font-weight-bold">intégration</span> sur un site WordPress déjà en développement à mon arrivée.<span class="font-weight-bold"></span></p>
-                        <p><ul>
-                            <li>Intégration de la page "Expertises"</li>
-                            <li>Ajout de visuels et carrousels</li>
-                            <li>Résolution de bugs d'affichage</li>
-                            <li>Animation de divers éléments sur les pages</li>
-                        </ul></p>
-                        <p>Les missions ont été réalisées en <span class="font-weight-bold">coordination</span> avec la directrice de production digitale de l'agence. En raison de la pandémie de Covid-19, trois semaines du stage se sont déroulées en <span class="font-weight-bold">télétravail</span>. </p>
-                        <a href="http://www.gpi-ip.com/" class="sim-btn btn-hover-new"
+                       
+                        <p>Développement d'un mini réseau social en <span class="font-weight-bold">PHP</span>, entièrement en <span class="font-weight-bold">Programmation Orientée Objet</span> (POO).</p>
+                        <p>Le projet est implémenté avec le design pattern <span class="font-weight-bold">Modèle-vue-contrôleur</span> (MVC) :</p>
+                        <p>
+                            <ul>
+                                <li>Pour la persistance des données, j'ai utilisé un <span class="font-weight-bold">ORM</span> s'appuyant sur des fichiers JSON.</li>
+                                <li>Les vues ont été codées en PHP natif et Bootstrap.</li>
+                                
+                            </ul>
+                        </p>
+                        <a href="https://calm-ridge-43517.herokuapp.com/" class="sim-btn btn-hover-new"
                             target="_blank">Voir le
                             site</a>
                     </div>
                 </div>
-            </div> <!-- END COL -->
+            </div>
             <div class="col-md-6 mt-5">
-                <div id="carouselGpi" class="carousel slide" data-ride="carousel">
+                <img src="../uploads/cc/home-cc.jpg" alt="Page d'accueil du réseau social Creepy Cute" class="img-fluid border">
+            </div>
+        </div> <!-- END ROW -->
+
+        <div class="row">
+            <div class="col-12 mt-5 text-center order-1"><h2>Fonctionnalités</h2></div>
+            <div class="col-md-6 mt-5 order-3 order-md-2">
+                <div id="carouselCC" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active border">
-                            <img src="../uploads/gpi/gpi.jpg" class="d-block w-100" alt="Page Expertises du site GPI">
+                            <img src="../uploads/cc/login-creepy.jpg" class="d-block w-100" alt="Page de login Creepy Cute">
                         </div>
                         <div class="carousel-item border">
-                            <img src="../uploads/gpi/implantation-gpi.png" class="d-block w-100" alt="Page Implantations du site GPI">
+                            <img src="../uploads/cc/is-logged-creepy.jpg" class="d-block w-100"
+                                alt="Page d'accueil une fois connecté">
                         </div>
                         <div class="carousel-item border">
-                            <img src="../uploads/gpi/accueil-gpi.jpg" class="d-block w-100" alt="Page d'accueil du site GPI">
+                            <img src="../uploads/cc/registration-creepy.jpg" class="d-block w-100"
+                                alt="Page d'enregistrement">
+                        </div>
+                        <div class="carousel-item border">
+                            <img src="../uploads/cc/search-creepy.jpg" class="d-block w-100"
+                                alt="Page de résultat d'une recherche de pseudo">
+                        </div>
+                        <div class="carousel-item border">
+                            <img src="../uploads/cc/searchCat.jpg" class="d-block w-100"
+                                alt="Page de résultat d'une recherche de catégorie">
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselGpi" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#carouselCC" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselGpi" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#carouselCC" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-            </div> <!-- END COL -->
+            </div>
+            <div class="col-md-6 mt-5 order-2 order-md-3">
+                <div class="card border-0">
+                    <div class="card-body p-0">
+                        <p>Les <span class="font-weight-bold">fonctionnalités</span> suivantes ont été intégrées dans le projet :</p>
+                        <p>
+                            <ul>
+                                <li><span class="font-weight-bold">Consultation</span> des posts d'autres utilisateurs</li>
+                                <li><span class="font-weight-bold">Inscription et/ou connexion</span></li>
+                                <li><span class="font-weight-bold">Création</span> de nouveaux posts, seulement pour les membres connectés</li>
+                                <li><span class="font-weight-bold">Recherche</span> par @pseudo ou catégorie</li>
+                            </ul>
+                        </p>
+                        <p><span class="font-weight-bold"></span></p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
         </div> <!-- END ROW -->
     </main>
 
