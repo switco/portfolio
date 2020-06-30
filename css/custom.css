@@ -37,10 +37,6 @@ a:hover {
     min-height: 384px;
 }
 
-#rmp .navbar-dark .navbar-nav .nav-link:hover, #rmp-landing .navbar-dark .navbar-nav .nav-link:hover, #gpi .navbar-dark .navbar-nav .nav-link:hover, #creepy-cute .navbar-dark .navbar-nav .nav-link:hover, #lpfs .navbar-dark .navbar-nav .nav-link:hover, #open-museum .navbar-dark .navbar-nav .nav-link:hover {
-    font-weight: 500;
-}
-
 /* COLOR */
 .tech-logo {
     font-size: 1.8rem;

@@ -25,4 +25,4 @@ Have a nice visit !
     <li><a href="https://www.flaticon.com/authors/phatplus" title="phatplus" target="_blank">phatplus</a> </li>
 </ul>
 
-<div>All from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+<div>All from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a></div>
