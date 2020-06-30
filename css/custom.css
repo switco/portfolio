@@ -34,7 +34,7 @@ a:hover {
 }
 
 .services-inner-box{
-    min-height: 400px;
+    min-height: 384px;
 }
 
 #rmp .navbar-dark .navbar-nav .nav-link:hover, #rmp-landing .navbar-dark .navbar-nav .nav-link:hover, #gpi .navbar-dark .navbar-nav .nav-link:hover, #creepy-cute .navbar-dark .navbar-nav .nav-link:hover, #lpfs .navbar-dark .navbar-nav .nav-link:hover, #open-museum .navbar-dark .navbar-nav .nav-link:hover {
@@ -76,7 +76,7 @@ a:hover {
 }
 
 .code-icon {
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 
 .ml3 {
@@ -91,6 +91,10 @@ a:hover {
 
 .post-box ul {
     padding: 0;
+}
+
+.heading p {
+    padding: 15px 0;
 }
 
 /* HOVER */
@@ -179,11 +183,15 @@ a:hover {
     }
     
     .img-size {
-        width: 330px;
+        width: 300px;
     }
 
     .ml3 {
         font-weight: 500;  
         font-size: 1.5rem;
+    }
+
+    .code-icon {
+        font-size: 1.6rem;
     }
   }
