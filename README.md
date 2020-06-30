@@ -1,21 +1,28 @@
 # Portfolio
 
-Currently under construction !
-Come back soon to see the end result :)
+Hello there!
+
+Welcome to my portfolio, here you can enjoy all my web projects!
+
+Feel free to contact me for any enquiries :)
+
+Have a nice visit !
 
 
 # Credits
 
-## Template :
+## Template:
 
-<a href="https://www.free-css.com/free-css-templates/page246/dominic">Dominic</a>
+<a href="https://www.free-css.com/free-css-templates/page246/dominic" target="_blank">Dominic</a>
 
-## Icons made by :
+## Icons made by:
 
-<a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a>
-<a href="https://www.flaticon.com/authors/smartline" title="Smartline">Smartline</a>
-<a href="https://www.flaticon.com/authors/nhor-phai" title="Nhor Phai">Nhor Phai</a>
-<a href="https://www.flaticon.com/authors/prettycons" title="prettycons">prettycons</a>
-<a href="https://www.flaticon.com/authors/phatplus" title="phatplus">phatplus</a> 
+<ul>
+    <i><a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp" target="_blank">Eucalyp</a></i>
+    <i><a href="https://www.flaticon.com/authors/smartline" title="Smartline" target="_blank">Smartline</a></i>
+    <i><a href="https://www.flaticon.com/authors/nhor-phai" title="Nhor Phai" target="_blank">Nhor Phai</a></i>
+    <i><a href="https://www.flaticon.com/authors/prettycons" title="prettycons" target="_blank">prettycons</a></i>
+    <i><a href="https://www.flaticon.com/authors/phatplus" title="phatplus" target="_blank">phatplus</a> </i>
+</ul>
 
 <div>All from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
