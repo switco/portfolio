@@ -1,16 +1,16 @@
 /** ADD YOUR AWESOME CODES HERE **/
 
 /* GENERAL */
-#rmp h1, #rmp-landing h1, #creepy-cute h1, #gpi h1, #lpfs h1, #open-museum h1 {
+#rmp h1, #rmp-landing h1, #creepy-cute h1, #gpi h1, #lpfs h1, #open-museum h1, #natchez-wp {
     font-family: 'Roboto Slab';
 }
 
-#rmp h2, #rmp-landing h2, #creepy-cute h2, #lpfs h2, #open-museum h2{
+#rmp h2, #rmp-landing h2, #creepy-cute h2, #lpfs h2, #open-museum h2, #natchez-wp h2{
     font-size: 1.7rem;
     font-weight: 500;
 }
 
-h3:after, #rmp h2:after, #rmp-landing h2:after, #creepy-cute h2:after, #lpfs h2:after, #open-museum h2:after {
+h3:after, #rmp h2:after, #rmp-landing h2:after, #creepy-cute h2:after, #lpfs h2:after, #open-museum h2:after, #natchez-wp h2:after {
     content: '';
     display: block;
     height: 3px;
